@@ -1,0 +1,33 @@
+{
+    "Demigod": [
+        ["./imgs/dg1.jpg", "je to demigod fotka"],
+        ["./imgs/dg2.jpg", "je to demigod fotka"],
+        ["./imgs/dg3.jpg", "je to demigod fotka"],
+        ["./imgs/dg4.jpg", "je to demigod fotka"],
+        ["./imgs/dg5.jpg", "je to demigod fotka"],
+        ["./imgs/dg6.jpg", "je to demigod fotka"],
+
+        ["./imgs/d1.jpg", "je to demigod fotka"],
+        ["./imgs/d2.jpg", "je to demigod fotka"],
+        ["./imgs/d3.jpg", "je to demigod fotka"],
+        ["./imgs/d4.jpg", "je to demigod fotka"],
+        ["./imgs/d5.jpg", "je to demigod fotka"]
+    ],
+
+    "Domax": [
+        ["./imgs/dmx1.jpg", "je to domax fotka"]
+    ],
+
+    "CWO": [
+      ["./imgs/cwo1.jpg", "je to cwo poster s martinem"],
+      ["./imgs/cwo2.jpg", "je to cwo poster s eliskou"],
+      ["./imgs/cwo3.jpg", "je to cwo poster s terkou"],
+      ["./imgs/cwo5.jpg", "je to cwo poster s terkou"]
+    ],
+
+    "Ostatni": [
+        []
+    ]
+    
+
+}

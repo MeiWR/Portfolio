@@ -11,7 +11,7 @@ import imagesLoaded from 'imagesloaded';
 //import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 import lgHash from 'lightgallery/plugins/hash';
-
+import {motion} from "framer-motion"
 
 
 function Galerie({listObr}) {
@@ -53,9 +53,14 @@ function Galerie({listObr}) {
         <div className="grid-sizer"></div>
 
         {Object.values(listObr).flat().map((image, index) => (
-            <a key={index} href={image[0]} className="gallery-item">
-                <img className="img-responsive" alt={image[1]} src={image[0]} />
-            </a>
+            
+                <motion.a key={index} href={image[0]} className="gallery-item" 
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}>
+                    <img className="img-responsive" alt={image[1]} src={image[0]} />
+                </motion.a>
+            
         ))}
 
     </LightGallery>);

@@ -9,9 +9,9 @@ function Portfolio(){
         <div className="Portfolio">
             <h1 className="nadpisPortfolio">PORTFOLIO</h1>
             <div className="PortSelection">
-                <p className={`PortSelect ${portfolio === 'Grafika'? 'active' : ''}`} onClick={()=>setPortfolio("Grafika")}>Grafika</p>
+                <p className={`PortSelect ${portfolio === 'Grafika'? 'active' : ''}`} onClick={()=>setPortfolio("Grafika")}>Design</p>
                 <p className={`PortSelect ${portfolio === 'Video'? 'active' : ''}`} onClick={()=>setPortfolio("Video")}>Video</p>
-                <p className={`PortSelect ${portfolio === 'Kytary'? 'active' : ''}`} onClick={()=>setPortfolio("Kytary")}>Kytary</p>
+                <p className={`PortSelect ${portfolio === 'Kytary'? 'active' : ''}`} onClick={()=>setPortfolio("Kytary")}>Výroba kytar</p>
             </div>
             <div className="PortRendered">
                 {portfolio==="Grafika" && <PortGrafika />}

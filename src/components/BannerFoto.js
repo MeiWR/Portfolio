@@ -6,7 +6,7 @@ function BannerFoto(){
             <img src="./imgs/home-bg.jpg" alt='Já.'/>
             <Typewriter
                 options={{
-                    strings: ['TOMÁŠ MALCHER', 'Grafik', 'Designer'],
+                    strings: ['TOMÁŠ MALCHER.', ''],
                     autoStart: true,
                     loop: true,
                 }}

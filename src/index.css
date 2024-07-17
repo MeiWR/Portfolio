@@ -23,11 +23,12 @@ background-color: #131313;
 }
 
 .Typewriter{
-  color: #131313;
-  font-size: 4vw;
+  color: #fff;
+  font-size: 3vw;
   position: absolute;
-  top: 280px;
-  left: 180px;
+  top: 66%;
+  left: 12%;
+  font-weight: 700;
 }
 
 .AboutMe{
@@ -40,11 +41,13 @@ justify-content: center;
 }
 
 .leva{
-  margin-left: 20vw;
+  margin-left: 15%;
+  place-items: center;
   flex: 34%;
 }
 
 .prava{
+  margin-left:20px;
   margin-right: 20%;
   flex: 66%;
 }
@@ -89,8 +92,13 @@ color: #999;
   justify-content: center;
   gap: 40px;
 }
+
 .PortSubSelect:hover{
   cursor: pointer;
+}
+
+.PortSubSelect{
+  transition: all 0.2s ease-in;
 }
 
 .PortGrafika{
@@ -113,9 +121,12 @@ color: #999;
   width: 320px;
 }
 
+
 .masonry-gallery-demo {
+  max-width: 980px;
   width: 70%;
   margin: 0 auto;
+  margin-top: 30px;
 }
 .masonry-gallery-demo:after {
     content: '';
