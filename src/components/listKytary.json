@@ -1,35 +1,35 @@
 {
     "L-17": [
-        ["./imgs/l17_1.jpg", "je to kytara fotka"],
-        ["./imgs/l17_2.jpg", "je to kytara fotka"],
-        ["./imgs/l17_3.jpg", "je to kytara fotka"]
+        ["./imgs/l17_1.jpg", "./thumbnails/l17_1.jpg", "je to kytara fotka"],
+        ["./imgs/l17_2.jpg", "./thumbnails/l17_2.jpg", "je to kytara fotka"],
+        ["./imgs/l17_3.jpg", "./thumbnails/l17_3.jpg", "je to kytara fotka"]
     ],
     "Viking": [
-        ["./imgs/v1.jpg", "je to kytara fotka"],
-        ["./imgs/v2.jpg", "je to kytara fotka"],
-        ["./imgs/v3.jpg", "je to kytara fotka"],
-        ["./imgs/v4.jpg", "je to kytara fotka"],
-        ["./imgs/v5.jpg", "je to kytara fotka"],
-        ["./imgs/v6.jpg", "je to kytara fotka"]
+        ["./imgs/v1.jpg", "./thumbnails/v1.jpg", "je to kytara fotka"],
+        ["./imgs/v2.jpg", "./thumbnails/v2.jpg", "je to kytara fotka"],
+        ["./imgs/v3.jpg", "./thumbnails/v3.jpg", "je to kytara fotka"],
+        ["./imgs/v4.jpg", "./thumbnails/v4.jpg", "je to kytara fotka"],
+        ["./imgs/v5.jpg", "./thumbnails/v5.jpg", "je to kytara fotka"],
+        ["./imgs/v6.jpg", "./thumbnails/v6.jpg", "je to kytara fotka"]
     ],
     "Burl": [
-        ["./imgs/fl1.jpg", "je to kytara fotka"],
-        ["./imgs/fl2.jpg", "je to kytara fotka"],
-        ["./imgs/fl3.jpg", "je to kytara fotka"],
-        ["./imgs/fl4.jpg", "je to kytara fotka"],
-        ["./imgs/fl5.jpg", "je to kytara fotka"],
-        ["./imgs/fl6.jpg", "je to kytara fotka"],
-        ["./imgs/fl7.jpg", "je to kytara fotka"]
+        ["./imgs/fl1.jpg", "./thumbnails/fl1.jpg", "je to kytara fotka"],
+        ["./imgs/fl2.jpg", "./thumbnails/fl2.jpg", "je to kytara fotka"],
+        ["./imgs/fl3.jpg", "./thumbnails/fl3.jpg", "je to kytara fotka"],
+        ["./imgs/fl4.jpg", "./thumbnails/fl4.jpg", "je to kytara fotka"],
+        ["./imgs/fl5.jpg", "./thumbnails/fl5.jpg", "je to kytara fotka"],
+        ["./imgs/fl6.jpg", "./thumbnails/fl6.jpg", "je to kytara fotka"],
+        ["./imgs/fl7.jpg", "./thumbnails/fl7.jpg", "je to kytara fotka"]
     ],
     "Purple7": [
-        ["./imgs/p7_1.jpg", "je to kytara fotka"],
-        ["./imgs/p7_2.jpg", "je to kytara fotka"],
-        ["./imgs/p7_3.jpg", "je to kytara fotka"],
-        ["./imgs/p7_4.jpg", "je to kytara fotka"],
-        ["./imgs/p7_5.jpg", "je to kytara fotka"],
-        ["./imgs/p7_6.jpg", "je to kytara fotka"],
-        ["./imgs/p7_7.jpg", "je to kytara fotka"],
-        ["./imgs/p7_8.jpg", "je to kytara fotka"]
+        ["./imgs/p7_1.jpg", "./thumbnails/p7_1.jpg", "je to kytara fotka"],
+        ["./imgs/p7_2.jpg", "./thumbnails/p7_2.jpg", "je to kytara fotka"],
+        ["./imgs/p7_3.jpg", "./thumbnails/p7_3.jpg", "je to kytara fotka"],
+        ["./imgs/p7_4.jpg", "./thumbnails/p7_4.jpg", "je to kytara fotka"],
+        ["./imgs/p7_5.jpg", "./thumbnails/p7_5.jpg", "je to kytara fotka"],
+        ["./imgs/p7_6.jpg", "./thumbnails/p7_6.jpg", "je to kytara fotka"],
+        ["./imgs/p7_7.jpg", "./thumbnails/p7_7.jpg", "je to kytara fotka"],
+        ["./imgs/p7_8.jpg", "./thumbnails/p7_8.jpg", "je to kytara fotka"]
     ]
 
 }

@@ -5,9 +5,10 @@ import Portfolio from "./components/Portfolio";
 function App() {
   return (
     <div className="App">
+      <Portfolio />
       <Banner />
       <AboutMe />
-      <Portfolio />
+      
     </div>
   );
 }

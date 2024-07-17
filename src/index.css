@@ -25,9 +25,10 @@ background-color: #131313;
 .Typewriter{
   color: #fff;
   font-size: 3vw;
-  position: absolute;
-  top: 66%;
-  left: 12%;
+  position: relative;
+  top: -33%;
+  --left: 12%;
+  padding-left: 12%;
   font-weight: 700;
 }
 

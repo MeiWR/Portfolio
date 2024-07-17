@@ -58,7 +58,7 @@ function Galerie({listObr}) {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}>
-                    <img className="img-responsive" alt={image[1]} src={image[0]} />
+                    <img className="img-responsive" alt={image[2]} src={image[1]} />
                 </motion.a>
             
         ))}
