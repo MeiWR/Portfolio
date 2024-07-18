@@ -620,7 +620,7 @@ justify-content: center;
   position: relative;
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  --padding-bottom: 50px;
   min-height: fit-content;
   background-color: #131313;
 }
@@ -681,8 +681,18 @@ justify-content: center;
 
 
 .downloadCV{
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+.Copyright{
+  background-color: #111111;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 1vw;
+}
+
 
 .Kontakt a{
   color: #fff;

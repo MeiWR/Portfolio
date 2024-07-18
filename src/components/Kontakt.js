@@ -5,9 +5,9 @@ function Kontakt(){
             <div className="Kontakt">
                 <h1>KONTAKT</h1>
                 <p>malchertomm@gmail.com</p>
-                <p>Brno</p>
-                <p>tomasmalcher.ZATÍMIDKJAKAKONCOVKA</p>
+                <p>Brno</p>               
                 <p className="downloadCV"><a href="./download\CV_Tomas_Malcher.pdf" target="_blank" rel="noopener noreferrer">Stáhnout CV</a></p>
+                <p className="Copyright">@ Tomáš Malcher 2024</p>
             </div>
         </div>
     )
