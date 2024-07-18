@@ -384,7 +384,7 @@ justify-content: center;
 
 .img-responsive{
   --width: 320px;
-  width: 19.8vw;
+  width: 19vw;
 }
 
 @media (max-width: 1366px) {
