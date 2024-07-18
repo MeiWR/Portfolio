@@ -1,4 +1,4 @@
-import AboutMe from "./components/AboutMe";
+import Kontakt from "./components/Kontakt";
 import Banner from "./components/BannerFoto";
 import Portfolio from "./components/Portfolio";
 
@@ -7,8 +7,7 @@ function App() {
     <div className="App">
       <Portfolio />
       <Banner />
-      <AboutMe />
-      
+      <Kontakt />
     </div>
   );
 }

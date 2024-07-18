@@ -7,7 +7,10 @@ function Portfolio(){
     const [portfolio, setPortfolio] = useState('Grafika')
     return (
         <div className="Portfolio">
-            <h1 className="nadpisPortfolio">PORTFOLIO</h1>
+            <div className="PortfolioHeader">
+                <h1 className="nadpisPortfolio">PORTFOLIO</h1>
+                <h2 className="jmenoPortfolio">Tomáš Malcher</h2>
+            </div>
             <div className="PortSelection">
                 <p className={`PortSelect ${portfolio === 'Grafika'? 'active' : ''}`} onClick={()=>setPortfolio("Grafika")}>Design</p>
                 <p className={`PortSelect ${portfolio === 'Video'? 'active' : ''}`} onClick={()=>setPortfolio("Video")}>Video</p>

@@ -9,10 +9,11 @@
 .Banner{
 width: 100%;
 height: 100vh;
-background-color: #131313;
+background-color: #090909;
 }
 
 .Banner img{
+  top: 5px;
   width: 100%;
   height: 100%;
   object-fit:cover;
@@ -22,20 +23,34 @@ background-color: #131313;
 
 }
 
-.Typewriter{
-  color: #fff;
-  font-size: 3vw;
+.AboutWrap{
   position: relative;
-  top: -33%;
-  --left: 12%;
-  padding-left: 12%;
-  font-weight: 700;
+  padding-left: 10%;
+  top: -80%;
+  max-width: 30%;
+}
+
+.AboutMeText{
+  color: #fff;
+  position: relative;
+  font-size: 1.4vw;  
+  font-weight: 200;
+}
+
+.Typewriter{
+  justify-items: right;
+  color: #fff;
+  font-size: 2vw;
+  position: relative;
+  font-weight: 200;
+  padding-top: 12%;
+  text-align: right;
 }
 
 .AboutMe{
 height: 80vh;
 background-color: #131313;
-color: wheat;
+color: #fff;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -54,32 +69,51 @@ justify-content: center;
 }
 
 .Portfolio{
-width: 100%;
-min-height: 1000px;
-background-color: #191919;
-color: #999;
+  background-image: linear-gradient(to bottom, #191919, #090909 );
+  width: 100%;
+  min-height: 1000px;
+  background-color: #191919;
+  color: #999;
+}
+
+.PortfolioHeader{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .nadpisPortfolio{
+  letter-spacing: 3rem;
   color: #fff;
-  padding-top: 80px;
   display: flex;
   justify-content: center;
   font-weight: 400;
+  font-size: 3vw;
+  padding-bottom: 20px;
+}
+
+.jmenoPortfolio{
+  letter-spacing: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  font-size: 1.5vw;
 }
 
 .PortSelect:hover{
   cursor: pointer;
-  color:#fff;
+  color: #fff;
   --transition: all 0.3s ease-in;
 }
 
 .active{
-  color:#fff;
-  font-weight: bold;
+  color: #fff;
+  --font-weight: bold;
+  font-weight: 500;
 }
 
 .PortSelect{
+  font-weight: 200;
   margin-top: 30px;
   --margin-left: 20px;
   --margin-right: 20px;
@@ -128,6 +162,7 @@ color: #999;
   width: 70%;
   margin: 0 auto;
   margin-top: 30px;
+  padding-bottom: 50px;
 }
 .masonry-gallery-demo:after {
     content: '';
@@ -172,3 +207,62 @@ color: #999;
   gap: 12px;
 }
 
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 7%;
+  top: 0;
+  height: 86%;
+  width: 86%;
+  position: absolute;
+}
+
+.PortVideo{
+  padding-top: 30px;
+}
+
+
+.Kontakt{
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: fit-content;
+  background-color: #131313;
+}
+
+.Kontakt h1{
+  letter-spacing: 1.5rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 2vw;
+  padding-bottom: 10px;
+}
+
+.Kontakt p{
+  padding-top: 10px;
+  color: #fff;
+  font-weight: 200;
+  font-size: 1vw;
+  padding-bottom: 10px;
+}
+
+.downloadCV{
+  margin-top: 20px;
+}
+
+.Kontakt a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* mouse over link */
+.Kontakt a:hover {
+  font-weight: 400;
+}
