@@ -1,28 +1,28 @@
 {
     "Demigod": [
-        ["./imgs/dg1.jpg", "./thumbnails/dg1.jpg", "je to demigod fotka"],
-        ["./imgs/dg2.jpg", "./thumbnails/dg2.jpg", "je to demigod fotka"],
-        ["./imgs/dg3.jpg", "./thumbnails/dg3.jpg", "je to demigod fotka"],
-        ["./imgs/dg4.jpg", "./thumbnails/dg4.jpg", "je to demigod fotka"],
-        ["./imgs/dg5.jpg", "./thumbnails/dg5.jpg", "je to demigod fotka"],
-        ["./imgs/dg6.jpg", "./thumbnails/dg6.jpg", "je to demigod fotka"],
+        ["./imgs/dg1.jpg", "./thumbnails/dg1.jpg", ""],
+        ["./imgs/dg2.jpg", "./thumbnails/dg2.jpg", ""],
+        ["./imgs/dg3.jpg", "./thumbnails/dg3.jpg", ""],
+        ["./imgs/dg4.jpg", "./thumbnails/dg4.jpg", ""],
+        ["./imgs/dg5.jpg", "./thumbnails/dg5.jpg", ""],
+        ["./imgs/dg6.jpg", "./thumbnails/dg6.jpg", ""],
 
-        ["./imgs/d1.jpg", "./thumbnails/d1.jpg", "je to demigod fotka"],
-        ["./imgs/d2.jpg", "./thumbnails/d2.jpg", "je to demigod fotka"],
-        ["./imgs/d3.jpg", "./thumbnails/d3.jpg", "je to demigod fotka"],
-        ["./imgs/d4.jpg", "./thumbnails/d4.jpg", "je to demigod fotka"],
-        ["./imgs/d5.jpg", "./thumbnails/d5.jpg", "je to demigod fotka"]
+        ["./imgs/d1.jpg", "./thumbnails/d1.jpg", ""],
+        ["./imgs/d2.jpg", "./thumbnails/d2.jpg", ""],
+        ["./imgs/d3.jpg", "./thumbnails/d3.jpg", ""],
+        ["./imgs/d4.jpg", "./thumbnails/d4.jpg", ""],
+        ["./imgs/d5.jpg", "./thumbnails/d5.jpg", ""]
     ],
 
     "Domax": [
-        ["./imgs/dmx1.jpg", "./thumbnails/dmx1.jpg", "je to domax fotka"]
+        ["./imgs/dmx1.jpg", "./thumbnails/dmx1.jpg", ""]
     ],
 
     "CWO": [
-      ["./imgs/cwo1.jpg", "./thumbnails/cwo1.jpg", "je to cwo poster s martinem"],
-      ["./imgs/cwo2.jpg", "./thumbnails/cwo2.jpg", "je to cwo poster s eliskou"],
-      ["./imgs/cwo3.jpg", "./thumbnails/cwo3.jpg", "je to cwo poster s terkou"],
-      ["./imgs/cwo5.jpg", "./thumbnails/cwo5.jpg", "je to cwo poster s terkou"]
+      ["./imgs/cwo1.jpg", "./thumbnails/cwo1.jpg", ""],
+      ["./imgs/cwo2.jpg", "./thumbnails/cwo2.jpg", ""],
+      ["./imgs/cwo3.jpg", "./thumbnails/cwo3.jpg", ""],
+      ["./imgs/cwo5.jpg", "./thumbnails/cwo5.jpg", ""]
     ],
 
     "Ostatni": [
