@@ -104,7 +104,7 @@ background-color: #090909;
 @media (max-width: 825px) {
   .BannerFotka{
     height: 50vh;
-    object-position: -40vw 0vw;
+    object-position: -10vw 0vw;
     --scale: 150%;
   }
 
@@ -114,6 +114,15 @@ background-color: #090909;
   .BannerFotka{
     height: 40vh;
     object-position: -28vw 0vw;
+    --scale: 150%;
+  }
+
+}
+
+@media (max-width: 390px) {
+  .BannerFotka{
+    height: 40vh;
+    object-position: -15vw 0vw;
     --scale: 150%;
   }
 
@@ -154,10 +163,28 @@ background-color: #090909;
 
 }
 
+@media (max-width: 825px) {
+  .AboutWrap{
+    padding-left: 8vw;
+    top: -60vw;
+    max-width: 35%;
+  }
+
+}
+
+@media (max-width: 435px) {
+  .AboutWrap{
+    padding-left: 8vw;
+    top: -70vw;
+    max-width: 30%;
+  }
+
+}
+
 @media (max-width: 390px) {
   .AboutWrap{
     padding-left: 8vw;
-    top: -65vw;
+    top: -60vw;
     max-width: 30%;
   }
 
@@ -193,6 +220,15 @@ background-color: #090909;
   }
 
 }
+
+@media (max-width: 825px) {
+  .AboutMeText{
+    font-size: 2vw;  
+    font-weight: 400;
+  }
+
+}
+
 @media (max-width: 390px) {
   .AboutMeText{
     font-size: 1.8vw;  
