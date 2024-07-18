@@ -79,25 +79,66 @@ justify-content: center;
 .PortfolioHeader{
   padding-top: 20px;
   padding-bottom: 20px;
+
 }
 
+
 .nadpisPortfolio{
+  padding-left: 1vw;
+  text-align: center;
   letter-spacing: 3rem;
   color: #fff;
-  display: flex;
-  justify-content: center;
   font-weight: 400;
   font-size: 3vw;
   padding-bottom: 20px;
 }
 
+@media (max-width: 1024px) {
+  .nadpisPortfolio{
+    padding-left: 2vw;
+    letter-spacing: 2rem;
+    font-size: 5vw;
+
+  }
+
+}
+
+@media (max-width: 560px) {
+  .nadpisPortfolio{
+    padding-left: 4vw;
+    letter-spacing: 1.5rem;
+    font-size: 5vw;
+
+  }
+
+}
+
 .jmenoPortfolio{
+  padding-left: 1vw;
   letter-spacing: 1rem;
   color: #fff;
   display: flex;
   justify-content: center;
   font-weight: 200;
   font-size: 1.5vw;
+}
+
+@media (max-width: 1024px) {
+  .jmenoPortfolio{
+    padding-left: 2vw;
+    letter-spacing: 1rem;
+    font-size: 3vw;
+  }
+
+}
+
+@media (max-width: 560px) {
+  .jmenoPortfolio{
+    padding-left: 2vw;
+    letter-spacing: 0.8rem;
+    font-size: 3vw;
+  }
+
 }
 
 .PortSelect:hover{
@@ -117,8 +158,35 @@ justify-content: center;
   margin-top: 30px;
   --margin-left: 20px;
   --margin-right: 20px;
-  font-size: xx-large;
+  font-size: 1.6vw;
+  --font-size: xx-large;
   transition: all 0.2s ease-in;
+}
+
+@media (max-width: 1024px) {
+  .PortSelect{
+    
+    font-weight: 200;
+    margin-top: 30px;
+    --margin-left: 20px;
+    --margin-right: 20px;
+    font-size: 3vw;
+    transition: all 0.2s ease-in;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .PortSelect{
+    
+    font-weight: 200;
+    margin-top: 30px;
+    --margin-left: 20px;
+    --margin-right: 20px;
+    font-size: larger;
+    transition: all 0.2s ease-in;
+  }
+
 }
 
 .PortSelection{
@@ -128,12 +196,52 @@ justify-content: center;
   gap: 40px;
 }
 
+@media (max-width: 1024px) {
+  .PortSelection{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+}
+@media (max-width: 475px) {
+  .PortSelection{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+}
+
 .PortSubSelect:hover{
   cursor: pointer;
 }
 
 .PortSubSelect{
   transition: all 0.2s ease-in;
+  font-size: 0.85vw;
+}
+
+@media (max-width: 1024px) {
+  .PortSubSelect{
+    font-size: 2vw;
+    transition: all 0.2s ease-in;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .PortSubSelect{
+    font-size: 3vw;
+    transition: all 0.2s ease-in;
+  }
+
 }
 
 .PortGrafika{
@@ -153,17 +261,83 @@ justify-content: center;
 }
 
 .img-responsive{
-  width: 320px;
+  --width: 320px;
+  width: 19vw;
+}
+
+@media (max-width: 1366px) {
+  .img-responsive{
+    width: 39vw;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .img-responsive{
+    width: 80vw;
+  }
+
+}
+/*
+@media (max-width: 1146px) {
+  .img-responsive{
+    width: 320px;
+  }
+
+}
+
+@media (max-width: 906px) {
+  .img-responsive{
+    width: 280px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .img-responsive{
+    width: 280px;
+  }
+
 }
 
 
+@media (max-width: 720px) {
+  .img-responsive{
+    width: 400px;
+  }
+
+}
+
+@media (max-width: 720px) {
+  .img-responsive{
+    width: 400px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .img-responsive{
+    width: 260px;
+  }
+
+}
+*/
+
+
 .masonry-gallery-demo {
-  max-width: 980px;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   margin-top: 30px;
   padding-bottom: 50px;
 }
+
+@media (max-width: 1366px) {
+  .masonry-gallery-demo {
+    width: 80%;
+  }
+}
+
+
 .masonry-gallery-demo:after {
     content: '';
     display: block;
@@ -173,6 +347,21 @@ justify-content: center;
   .grid-sizer,
   .lg-item {
     width: 33.33%;
+  }
+
+  @media (max-width: 1366px) {
+    .grid-sizer,
+    .lg-item {
+      width: 50%;
+    }
+  
+  }
+  @media (max-width: 768px) {
+    .grid-sizer,
+    .lg-item {
+      width: 50%;
+    }
+  
   }
 
   .lg-item {
