@@ -2,9 +2,9 @@
     "Demigod": [
         ["./imgs/dg1.jpg", "./thumbnails/dg1.jpg", ""],
         ["./imgs/dg2.jpg", "./thumbnails/dg2.jpg", ""],
-        ["./imgs/dg3.jpg", "./thumbnails/dg3.jpg", ""],
         ["./imgs/dg4.jpg", "./thumbnails/dg4.jpg", ""],
         ["./imgs/dg5.jpg", "./thumbnails/dg5.jpg", ""],
+        ["./imgs/dg3.jpg", "./thumbnails/dg3.jpg", ""],
         ["./imgs/dg6.jpg", "./thumbnails/dg6.jpg", ""],
 
         ["./imgs/d1.jpg", "./thumbnails/d1.jpg", ""],
@@ -15,13 +15,16 @@
     ],
 
     "Domax": [
-        ["./imgs/dmx1.jpg", "./thumbnails/dmx1.jpg", ""]
+        ["./imgs/dmx1.jpg", "./thumbnails/dmx1.jpg", ""],
+        ["./imgs/dmx2.jpg", "./thumbnails/dmx2.jpg", ""],
+        ["./imgs/dmx3.jpg", "./thumbnails/dmx3.jpg", ""]
     ],
 
     "CWO": [
       ["./imgs/cwo1.jpg", "./thumbnails/cwo1.jpg", ""],
       ["./imgs/cwo2.jpg", "./thumbnails/cwo2.jpg", ""],
       ["./imgs/cwo3.jpg", "./thumbnails/cwo3.jpg", ""],
+      ["./imgs/cwo4.jpg", "./thumbnails/cwo4.jpg", ""],
       ["./imgs/cwo5.jpg", "./thumbnails/cwo5.jpg", ""]
     ],
 
