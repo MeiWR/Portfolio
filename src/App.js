@@ -9,6 +9,7 @@ function App() {
       
       <Portfolio />
       <Banner />
+      
       <Kontakt />
     </div>
   );
