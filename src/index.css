@@ -760,6 +760,28 @@ justify-content: center;
 
 }
 
+.CopyToClipboard{
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+  gap: 8px;
+}
+
+.TooltipCopy:hover{
+ cursor: pointer;
+}
+
+.TooltipCopy{
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+  gap: 8px;
+  color: #fff;
+}
+
+.CopyIcon{
+  font-size: 20px;
+}
 
 .downloadCV{
   margin-bottom: 20px;
@@ -789,5 +811,27 @@ justify-content: center;
 /* mouse over link */
 .Kontakt a:hover {
   font-weight: 400;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #131313;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
