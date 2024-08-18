@@ -17,7 +17,8 @@
     "Domax": [
         ["./imgs/dmx1.jpg", "./thumbnails/dmx1.jpg", ""],
         ["./imgs/dmx2.jpg", "./thumbnails/dmx2.jpg", ""],
-        ["./imgs/dmx3.jpg", "./thumbnails/dmx3.jpg", ""]
+        ["./imgs/dmx3.jpg", "./thumbnails/dmx3.jpg", ""],
+        ["./imgs/dmx4.jpg", "./thumbnails/dmx4.jpg", ""]
     ],
 
     "CWO": [
